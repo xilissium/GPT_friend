@@ -12,7 +12,7 @@ do not remove file.wav it can create some error it will be automacly replace dur
 start Ai.py its the main programe  
 
 the two other one is for the gui and was made by Avi Rzayev (https://www.youtube.com/@avirzayev9450) and is project https://gitlab.com/avirzayev/music-visualizer
-i had some modification to work in my case but it's is own creation
+i add some modification to work in my case but it's is own creation
 
 # CONFIGURE
 to setup the IA for you edit AI.py in the setting zone
