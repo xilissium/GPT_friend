@@ -14,17 +14,17 @@ import GUI
 
 
 ################SETINGS##############
-audio_sensi = 18
+audio_sensi = 18        ## choos your audio sensibilty
 audio_end_rec = 1       ##in second
-audio_file = r'D:\dev\openAI\AI'
-personalité = "tu est un assistant sarcastique"
-content = "tu a la capacite de parler a l'oral"
-whisper_model = "base" ## tiny , base , small , medium , large
-AI_language = "fr" 
-key_api = 'YOUR API KEY'
-voice_model = 'tts_models/fr/css10/vits'
-IA_model = "gpt-3.5-turbo"
-use_gpu = False
+audio_file = r'YOUR FILE PATH'
+personalité = ""        ## set the personnality of your assitant 
+content = ""            ## add more detail for your assitant
+whisper_model = "base" ## tiny , base , small , medium , large (it's the model for th speech_to text (need to be download once a first start) 
+AI_language = "fr"     ## select ryour language for Speech_to_text it help tu run faster (ex en,de)
+key_api = 'YOUR API KEY' ## your api key from openai
+voice_model = 'tts_models/fr/css10/vits' ##select voire model from TTS api this model is french only 
+IA_model = "gpt-3.5-turbo"     ##chose the ia model on openai site
+use_gpu = False                ## use or no of the gpu to run faster (maybe don't work) experimentale
 #####################################
 
 
